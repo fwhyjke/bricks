@@ -1,0 +1,329 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body{
+  text-align: center;
+}
+
+html{
+  background: url(images/background.png) no-repeat center center fixed;
+  min-height: 100%;
+  background-size: cover;
+}
+
+small{
+  font-family: 'Akzidenz-Grotesk Pro Med';
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, rgba(255, 230, 0, 0.24) 0%, rgba(232, 170, 77, 0.48) 50.52%, rgba(248, 231, 77, 0.24) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0px;
+}
+
+h1{
+  font-family: 'Akzidenz-Grotesk Pro Bold Ext';
+  font-size: 57.33px;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.48) 0%, rgba(255, 255, 255, 0.90) 50.52%, rgba(255, 255, 255, 0.48) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 0px;
+  margin-bottom: 12px;
+  line-height: 60px;
+}
+
+p{
+  font-family: 'Akzidenz-Grotesk Pro Med';
+  font-size: 21.33px;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.32) 0%, rgba(255, 255, 255, 0.56) 50.52%, rgba(255, 255, 255, 0.32) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.goto{
+  font-family: 'Akzidenz-Grotesk Pro Bold';
+  color: #D9D9D9;
+  text-align: center;
+  font-size: 19.2px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0px;
+  text-decoration: none;
+}
+
+.promo{
+  width: 319px;
+  height: 62px;
+  box-shadow: 0px 0px 30px rgba(202, 117, 5, 0.3);
+  border-radius: 32px;
+  display: inline-block;
+  margin-top: 8%;
+  opacity: 85%;
+}
+
+
+.box-button{
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: linear-gradient(90deg, rgba(255, 199, 0, 0.10) 0%, rgba(244, 49, 108, 0.18) 50.52%, rgba(92, 239, 213, 0.10) 100%);
+  display: inline-block;
+  padding: 16px 32px;
+  transition: 0.5s;
+}
+
+.centred{
+  display: inline-block;
+  margin-top: -8%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+.icons{
+  margin-top: 1%;
+}
+
+.icons p{
+  text-align: center;
+  font-family: 'Akzidenz-Grotesk Pro Med';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.24) 0%, rgba(255, 255, 255, 0.56) 50.52%, rgba(255, 255, 255, 0.24) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.icons a{
+  margin: 0px 8px;
+}
+
+.box-button:hover{
+  transform: scale(1.08);
+  transition: 0.32s;
+}
+
+.icons a img{
+  opacity: 70%;
+  transition: 0.25s
+}
+.icons a:hover img{
+  opacity: 100%;
+  transition: 0.52s;
+}
+
+
+.buy-brick{
+  margin-top: 1%;
+  display: inline-block;
+  width: 248px;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 16px;
+  border: 0.5px solid rgba(255, 255, 255, 0.20);
+  background: rgba(255, 255, 255, 0.20);
+}
+
+.buy-brick p{
+  padding: 16px;
+  text-align: center;
+  font-family: 'Akzidenz-Grotesk Pro Med';
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background: linear-gradient(180deg, #FFFDFD 0%, rgba(100, 150, 138, 0.00) 148.89%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.box-brick{
+  box-shadow:0 0 20px #555;
+  display: inline-block;
+  width: 300px;
+  height: 400px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  opacity: 0.8;
+  background: #BABABA;
+}
+
+.box-brick-1{
+  box-shadow:0 0 20px #555;
+  margin-top: -28%;
+  display: inline-block;
+  width: 300px;
+  height: 400px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  opacity: 0.8;
+  background: #BABABA;
+}
+
+.brick-1{
+  width: 245px;
+  height: 156px;
+  flex-shrink: 0;
+  border-radius: 16px;
+}
+
+.brick-1 img{
+  margin: 0px 28px;
+  margin-top: 26px;
+}
+
+.brick-1-text{
+  margin-left: 25px;
+  margin-right: -25px;
+  margin-top: 15px;
+}
+
+span{
+  color: #000;
+  font-family: 'Akzidenz-Grotesk Pro';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.brick-2{
+  width: 249px;
+  height: 179px;
+  flex-shrink: 0;
+  border-radius: 16px;
+}
+
+.brick-2 img{
+  margin: 0px 25px;
+  margin-top: 25px;
+}
+
+.brick-2-text{
+  margin-left: 25px;
+  margin-right: -25px;
+  margin-top: 15px;
+}
+
+
+.brick-3{
+  width: 261px;
+  height: 182px;
+  flex-shrink: 0;
+  border-radius: 16px;
+}
+
+.brick-3 img{
+  margin: 0px 20px;
+  margin-top: 24px;
+}
+
+.brick-3-text{
+  margin-left: 40px;
+  margin-top: 15px;
+}
+
+.brick-4{
+  width: 252px;
+  height: 173px;
+  flex-shrink: 0;
+  border-radius: 16px;
+}
+
+.brick-4 img{
+  margin: 0px 20px;
+  margin-top: 26px;
+}
+
+.brick-4-text{
+  margin-left: 42px;
+  margin-right: -10px;
+  margin-top: 5px;
+}
+
+.br-box-button-1{
+  display: inline-block;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: rgba(199, 129, 47, 0.90);
+  margin-top: 35px;
+  margin-left: 50px;
+}
+
+.br-box-button-2{
+  display: inline-block;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: rgba(199, 129, 47, 0.90);
+  margin-top: 25px;
+  margin-left: 50px;
+}
+
+.br-box-button-3{
+  display: inline-block;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: rgba(199, 129, 47, 0.90);
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.br-box-button-4{
+  display: inline-block;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: rgba(199, 129, 47, 0.90);
+  margin-top: 12px;
+  margin-left: 50px;
+}
+
+.buy{
+  color: #FFF;
+  text-align: center;
+  font-family: 'Akzidenz-Grotesk Pro';
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.xdd{
+  z-index: 2;
+}
+
+.xd{
+  z-index: 1;
+}
